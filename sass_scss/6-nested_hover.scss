@@ -1,9 +1,7 @@
-// Nested hover
-$color: #FF0000;
-$color-hover: #00FF00;
+// Nested hover- Buttons change color on hover
 button {
-	color: $color;
-	&:hover {
-		color: $color-hover;
-	}
+    color: #FF0000;
+    &:hover {
+        color: #00FF00;
+    }
 }
