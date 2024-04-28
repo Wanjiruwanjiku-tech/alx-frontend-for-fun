@@ -1,0 +1,14 @@
+//  Assign colors to HTML tags by using variables
+$my-color: #3D3D3D;
+$my-background-color: #6D6D6D;
+
+body {
+  color: $my-color;
+  background-color: $my-background-color;
+}
+p {
+  color: $my-color;
+}
+h2 {
+    background-color: $my-background-color;
+}
